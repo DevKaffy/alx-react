@@ -9,7 +9,7 @@ import "./App.css";
 import { getLatestNotification } from "../utils/utils";
 
 class App extends React.Component {
-  constructor() {
+  constructor(props) {
     super(props);
     this.handleKeyPress = this.handleKeyPress.bind(this);
   }
